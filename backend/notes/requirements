@@ -1,0 +1,15 @@
+##Entities
+
+- Organization
+- Incident
+
+## Functionalities
+
+- Organization login
+- Organization logout
+- Organization subscribe
+- Register new incidents
+- Delete incidents
+- List specific incidents from organization
+- List all cases
+- Contact organization
