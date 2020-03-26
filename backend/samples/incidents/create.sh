@@ -7,11 +7,11 @@ server=localhost:3333
 protocol=http
 
 curl -s -v --header "Content-Type: application/json" --request POST \
-  -H "Authorization: ec701e95" \
+  -H "Authorization: edf162c4" \
   --data '{
-    "title": "caso 1",
+    "title": "primeiro caso teste",
     "description": "detalhes do caso",
-    "value": "120"
+    "amount": "42"
   }' \
   $protocol://$server/$route?$query \
   | python -m json.tool
