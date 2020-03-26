@@ -9,7 +9,7 @@ database-configuration: ./knexfile.js
 
 MIGRATION_NAME=?default_migration_name
 create-database-migration:
-	npx knex migration:make ${MIGRATION_NAME}
+	npx knex migrate:make ${MIGRATION_NAME}
 
 apply-all-database-migration:
-	npx knex migration:latest
+	npx knex migrate:latest
