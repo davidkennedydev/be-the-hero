@@ -1,7 +1,12 @@
+.PHONY: run test
+
 all: run
 
 run:
 	npm start
+
+test:
+	npm test
 
 database-configuration: ./knexfile.js
 ./knexfile.js:
@@ -13,3 +18,7 @@ create-database-migration:
 
 apply-all-database-migration:
 	npx knex migrate:latest
+	 
+initialize-test-framework: ./jest.config.js
+./jest.config.js:
+	npx jest --init

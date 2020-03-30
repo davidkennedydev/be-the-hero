@@ -1,0 +1,12 @@
+# Plataformas
+
+## Backend (NodeJS)
+
+- Heroku: plano gratuito para subir uma API simples, caro para aplicações comerciais
+- Digital Ocean: hospedagem com precificação previsível, bom para aplicações comerciais em que clientes já vão utilizar
+- AWS, GPC, Azure
+
+## Frontend (React)
+
+- Netlify: bom para aplicações pequenas e de testes, porém caro para uso comercial
+

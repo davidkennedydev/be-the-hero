@@ -7,6 +7,6 @@ server=localhost:3333
 protocol=http
 
 curl -s -v --request GET \
-  -H "Authorization: f3e50f3f" \
+  -H "Authorization: edf162c4" \
   $protocol://$server/$route?$query \
   | python -m json.tool

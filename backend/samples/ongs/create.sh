@@ -10,7 +10,7 @@ curl -s -v --header "Content-Type: application/json" --request POST \
   --data '{
     "name": "APAD",
     "email": "contato@apad.com.br",
-    "whatsapp": "420000000",
+    "whatsapp": "1234567890",
     "city": "Rio do Sul",
     "uf": "SC"
   }' \
