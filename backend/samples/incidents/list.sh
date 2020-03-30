@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-query='page=3'
+query='page=1'
 route='incidents'
 
 server=localhost:3333

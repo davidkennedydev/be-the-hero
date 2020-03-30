@@ -11,3 +11,11 @@ ${SUBPROJECTS}:
 
 .PHONY: ${SUBPROJECTS}
 
+expo: /usr/local/bin/expo
+/usr/local/bin/expo:
+	npm install -g expo-cli
+
+# Create React Native project on directory mobile
+mobile: expo
+	$< init mobile
+	# Chose template blank
